@@ -39,6 +39,11 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
+      - name: Prepare Local.
+        if: startsWith(github.ref, 'refs/tags/')
+        run: |
+          echo "storyblok.token=${{ secrets.STORYBLOK_API_KEY }}" >> local.properties
+
       - name: Build Android Application
         run: ./gradlew app:clean app:assembleDebug
 
