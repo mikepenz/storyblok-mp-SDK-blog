@@ -34,7 +34,7 @@ the [Storyblok Kotlin Multiplatform SDK](https://github.com/mikepenz/storyblok-m
 
 ## Screenshots
 
-![Screenshots](https://raw.githubusercontent.com/mikepenz/storyblok-mp-SDK-blog/develop/DEV/screenshots/android_deskotp.png)
+![Screenshots](https://raw.githubusercontent.com/mikepenz/storyblok-mp-SDK-blog/develop/DEV/screenshots/android_desktop.png)
 
 ## Building
 
@@ -68,6 +68,11 @@ running (works for example with Java 11)
 
 The core project setup is heavily based on the amazing [PeopleInSpace](https://github.com/joreilly/PeopleInSpace) sample
 by @joreilly
+
+## Used dependency
+
+- [multiplatform-markdown-renderer](https://github.com/mikepenz/multiplatform-markdown-renderer)
+- [AboutLibraries](https://github.com/mikepenz/AboutLibraries)
 
 ## Maintained By
 
