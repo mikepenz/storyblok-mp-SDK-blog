@@ -39,6 +39,10 @@ jobs:
           restore-keys: |
             gradle-${{ runner.os }}-
 
+      - name: Prepare Local.
+        run: |
+          echo "storyblok.token=${{ secrets.STORYBLOK_API_KEY }}" >> local.properties
+
       - name: Build Android Application
         run: ./gradlew app:clean app:assembleDebug
 
@@ -50,7 +54,7 @@ jobs:
           COLLECT_PWD=${PWD}
           mkdir -p "artifacts"
           find . -name "*.apk" -type f -exec cp {} "artifacts" \;
-          find . -name "distributions/compose-desktop-*.zip" -type f -exec cp {} "artifacts" \;
+          find . -name "compose-desktop-*.zip" -type f -exec cp {} "artifacts" \;
 
       - name: Archive Artifacts
         uses: actions/upload-artifact@v2
