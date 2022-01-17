@@ -1,0 +1,79 @@
+# Thanks to https://github.com/coil-kt/coil/blob/master/.github/workflows/ci.yml
+name: CI
+
+on:
+  push:
+    tags:
+      - '*'
+  pull_request:
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 100
+
+      - uses: actions/setup-java@v2
+        with:
+          distribution: 'adopt'
+          java-version: '15'
+
+      - name: Validate gradle wrapper
+        uses: gradle/wrapper-validation-action@v1
+
+      - name: Copy CI gradle.properties
+        run: mkdir -p ~/.gradle ; cp .github/ci-gradle.properties ~/.gradle/gradle.properties
+
+      - name: Checkout Gradle Build Cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+            !~/.gradle/wrapper/dists/**/gradle*.zip
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*') }}
+          restore-keys: |
+            gradle-${{ runner.os }}-
+
+      - name: Build Android Application
+        run: ./gradlew app:clean app:assembleDebug
+
+      - name: Build Desktop Distribution
+        run: ./gradlew compose-desktop:distZip
+
+      - name: Collect artifacts
+        run: |
+          COLLECT_PWD=${PWD}
+          mkdir -p "artifacts"
+          find . -name "*.apk" -type f -exec cp {} "artifacts" \;
+          find . -name "distributions/compose-desktop-*.zip" -type f -exec cp {} "artifacts" \;
+
+      - name: Archive Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: "Artifacts"
+          path: artifacts/*
+
+      - name: Build Changelog
+        id: github_release
+        uses: mikepenz/release-changelog-builder-action@v2
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          configuration: ".github/config/configuration.json"
+          ignorePreReleases: ${{ !contains(github.ref, '-') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Release
+        uses: softprops/action-gh-release@91409e712cf565ce9eff10c87a8d1b11b81757ae
+        if: startsWith(github.ref, 'refs/tags/')
+        with:
+          body: ${{steps.github_release.outputs.changelog}}
+          prerelease: ${{ contains(github.event.inputs.version, '-rc') || contains(github.event.inputs.version, '-b') || contains(github.event.inputs.version, '-a') }}
+          files: artifacts/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
