@@ -32,6 +32,10 @@ the [Storyblok Kotlin Multiplatform SDK](https://github.com/mikepenz/storyblok-m
 
 -------
 
+## Screenshots
+
+![Screenshots](https://raw.githubusercontent.com/mikepenz/storyblok-mp-SDK-blog/develop/DEV/screenshots/android_deskotp.png)
+
 ## Building
 
 You need to use Android Studio Arctic Fox (**note: Java 11 is now the minimum version required**).
