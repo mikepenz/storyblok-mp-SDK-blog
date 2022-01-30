@@ -14,7 +14,7 @@ object Versions {
 
     const val storyblok = "1.2.0"
     const val markdownRenderer = "0.4.0"
-    const val aboutLibraries = "10.0.0-b07"
+    const val aboutLibraries = "10.0.0-b09"
 
     const val compose = "1.1.0-rc01"
     const val composeCompiler = "1.1.0-rc02"

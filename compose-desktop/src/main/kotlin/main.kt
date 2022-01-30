@@ -19,7 +19,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import co.touchlab.kermit.Logger
-import com.mikepenz.aboutlibraries.ui.compose.LibrariesContainer
+import com.mikepenz.aboutlibraries.Libs
 import com.mikepenz.common.di.initKoin
 import com.mikepenz.common.repository.StoryblokRepositoryInterface
 import com.mikepenz.storyblok.sdk.model.Story
@@ -97,9 +97,14 @@ fun main() = application {
                             }
                         }
                     } else {
-                        LibrariesContainer(useResource("aboutlibraries.json") {
+                        Libs.Builder().withJson(useResource("aboutlibraries.json") {
                             it.bufferedReader().readText()
-                        }, Modifier.fillMaxSize())
+                        }).build().libraries.onEach {
+                            println("it: ${it.name}")
+                        }
+                        //LibrariesContainer(useResource("aboutlibraries.json") {
+                        //    it.bufferedReader().readText()
+                        //}, Modifier.fillMaxSize())
                     }
                 }
             }

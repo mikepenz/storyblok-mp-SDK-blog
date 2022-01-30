@@ -22,6 +22,8 @@ dependencies {
     implementation(compose.material)
     implementation(project(":common"))
 
+    implementation("com.mikepenz:aboutlibraries-core:10.0.0-b09")
+
     with(Deps.MarkdownRenderer) {
         implementation(core)
     }
@@ -33,9 +35,9 @@ dependencies {
         implementation(dateTime)
     }
 
-    with(Deps.Compose) {
-        implementation(aboutLibraries)
-    }
+    // with(Deps.Compose) {
+    //     implementation(aboutLibraries)
+    // }
 }
 
 tasks.withType<KotlinCompile> {
