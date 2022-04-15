@@ -18,5 +18,5 @@ class StoryblokRepository : KoinComponent, StoryblokRepositoryInterface {
     private val api = Storyblok(BuildKonfig.STORYBLOK_TOKEN, client)
 
     // Used by web client atm
-    override suspend fun fetchStories() = api.fetchStories(startsWith = "a/")
+    override suspend fun fetchStories() = api.fetchStories(startsWith = "a/").stories
 }
