@@ -6,18 +6,18 @@ object Versions {
     const val kotlin = "1.6.10"
 
     const val kotlinCoroutines = "1.6.0"
-    const val koin = "3.1.5"
-    const val ktor = "1.6.7"
+    const val koin = "3.1.6"
+    const val ktor = "2.0.0"
     const val kotlinxSerialization = "1.3.2"
     const val kotlinxHtmlJs = "0.7.3"
     const val kotlinxDateTime = "0.3.2"
 
-    const val storyblok = "1.2.0"
+    const val storyblok = "2.0.0-rc02"
     const val markdownRenderer = "0.4.0"
-    const val aboutLibraries = "10.0.0-b07"
+    const val aboutLibraries = "10.1.0"
 
-    const val compose = "1.1.0-rc01"
-    const val composeCompiler = "1.1.0-rc02"
+    const val compose = "1.1.1"
+    const val composeCompiler = "1.1.0"
     const val navCompose = "2.4.0-rc01"
     const val accompanist = "0.22.0-rc"
 
@@ -33,12 +33,12 @@ object Versions {
 
     const val material = "1.5.0"
     const val activityCompose = "1.4.0"
-    const val lifecycleKtx = "2.4.0"
+    const val lifecycleKtx = "2.4.1"
     const val lifecycleRuntimeKtx = lifecycleKtx
     const val lifecycleViewmodelKtx = lifecycleKtx
 
-    const val slf4j = "1.7.33"
-    const val kermit = "1.0.3"
+    const val slf4j = "1.7.36"
+    const val kermit = "1.1.0"
 }
 
 object Deps {
@@ -115,9 +115,9 @@ object Deps {
     object Ktor {
         const val serialization = "io.ktor:ktor-serialization:${Versions.ktor}"
         const val clientCore = "io.ktor:ktor-client-core:${Versions.ktor}"
-        const val clientJson = "io.ktor:ktor-client-json:${Versions.ktor}"
+        const val clientJson = "io.ktor:ktor-client-content-negotiation:${Versions.ktor}"
         const val clientLogging = "io.ktor:ktor-client-logging:${Versions.ktor}"
-        const val clientSerialization = "io.ktor:ktor-client-serialization:${Versions.ktor}"
+        const val clientSerialization = "io.ktor:ktor-serialization-kotlinx-json:${Versions.ktor}"
         const val clientAndroid = "io.ktor:ktor-client-android:${Versions.ktor}"
         const val clientJava = "io.ktor:ktor-client-java:${Versions.ktor}"
     }
