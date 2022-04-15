@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated": "2022-01-17T14:26:15.738Z"
+    "generated": "2022-04-15T17:45:03.514Z"
   },
   "libraries": [
     {
@@ -11,7 +11,7 @@
           "name": "Mike Penz"
         }
       ],
-      "artifactVersion": "1.2.0",
+      "artifactVersion": "2.0.0-rc02",
       "description": "Storyblok Client SDK written using Kotlin Multiplatform. (Android, JVM, JS, iOS, ...)",
       "scm": {
         "connection": "scm:git@github.com:mikepenz/storyblok-mp-SDK.git",
@@ -33,7 +33,7 @@
           "name": "Kotlin Team"
         }
       ],
-      "artifactVersion": "1.6.10",
+      "artifactVersion": "1.6.20",
       "description": "Kotlin Standard Library JDK 8 extension",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/kotlin.git",
@@ -55,7 +55,7 @@
           "name": "Kotlin Team"
         }
       ],
-      "artifactVersion": "1.6.10",
+      "artifactVersion": "1.6.20",
       "description": "Kotlin Standard Library JDK 7 extension",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/kotlin.git",
@@ -77,7 +77,7 @@
           "name": "Kotlin Team"
         }
       ],
-      "artifactVersion": "1.6.10",
+      "artifactVersion": "1.6.20",
       "description": "Kotlin Standard Library for JVM",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/kotlin.git",
@@ -120,7 +120,7 @@
           "name": "Kotlin Team"
         }
       ],
-      "artifactVersion": "1.6.10",
+      "artifactVersion": "1.6.20",
       "description": "Kotlin Common Standard Library",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/kotlin.git",
@@ -385,7 +385,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Jetpack Compose desktop implementation",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -407,7 +407,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose Material Design Components library",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -429,7 +429,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Material ripple used to build interactive components",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -451,7 +451,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Higher level abstractions of the Compose UI primitives. This library is design system agnostic, providing the high-level building blocks for both application and design-system developers",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -473,7 +473,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose animation library",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -495,7 +495,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose layout implementations",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -517,7 +517,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose UI primitives. This library contains the primitives that form the Compose UI Toolkit, such as drawing, measurement and layout.",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -531,46 +531,6 @@
       ]
     },
     {
-      "uniqueId": "org.jetbrains.kotlinx:kotlinx-coroutines-swing",
-      "funding": [],
-      "developers": [
-        {
-          "organisationUrl": "https://www.jetbrains.com",
-          "name": "JetBrains Team"
-        }
-      ],
-      "artifactVersion": "1.6.0",
-      "description": "Coroutines support libraries for Kotlin",
-      "scm": {
-        "url": "https://github.com/Kotlin/kotlinx.coroutines"
-      },
-      "name": "kotlinx-coroutines-swing",
-      "website": "https://github.com/Kotlin/kotlinx.coroutines",
-      "licenses": [
-        "Apache-2.0"
-      ]
-    },
-    {
-      "uniqueId": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm",
-      "funding": [],
-      "developers": [
-        {
-          "organisationUrl": "https://www.jetbrains.com",
-          "name": "JetBrains Team"
-        }
-      ],
-      "artifactVersion": "1.6.0",
-      "description": "Coroutines support libraries for Kotlin",
-      "scm": {
-        "url": "https://github.com/Kotlin/kotlinx.coroutines"
-      },
-      "name": "kotlinx-coroutines-core",
-      "website": "https://github.com/Kotlin/kotlinx.coroutines",
-      "licenses": [
-        "Apache-2.0"
-      ]
-    },
-    {
       "uniqueId": "org.jetbrains.compose.runtime:runtime-saveable-desktop",
       "funding": [],
       "developers": [
@@ -579,7 +539,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose components that allow saving and restoring the local ui state",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -601,7 +561,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Tree composition support for code generated by the Compose compiler plugin and corresponding public API",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -615,6 +575,26 @@
       ]
     },
     {
+      "uniqueId": "org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm",
+      "funding": [],
+      "developers": [
+        {
+          "organisationUrl": "https://www.jetbrains.com",
+          "name": "JetBrains Team"
+        }
+      ],
+      "artifactVersion": "1.6.1",
+      "description": "Coroutines support libraries for Kotlin",
+      "scm": {
+        "url": "https://github.com/Kotlin/kotlinx.coroutines"
+      },
+      "name": "kotlinx-coroutines-core",
+      "website": "https://github.com/Kotlin/kotlinx.coroutines",
+      "licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
       "uniqueId": "org.jetbrains.compose.ui:ui-text-desktop",
       "funding": [],
       "developers": [
@@ -623,7 +603,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose Text primitives and utilities",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -645,7 +625,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose graphics",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -659,6 +639,28 @@
       ]
     },
     {
+      "uniqueId": "org.jetbrains.skiko:skiko-awt",
+      "funding": [],
+      "developers": [
+        {
+          "organisationUrl": "https://www.jetbrains.com",
+          "name": "Compose Multiplatform Team"
+        }
+      ],
+      "artifactVersion": "0.7.16",
+      "description": "Kotlin Skia bindings",
+      "scm": {
+        "connection": "scm:git:https://www.github.com/JetBrains/skiko.git",
+        "url": "https://www.github.com/JetBrains/skiko",
+        "developerConnection": "scm:git:https://www.github.com/JetBrains/skiko.git"
+      },
+      "name": "Skiko Awt",
+      "website": "https://www.github.com/JetBrains/skiko",
+      "licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
       "uniqueId": "org.jetbrains.compose.ui:ui-unit-desktop",
       "funding": [],
       "developers": [
@@ -667,7 +669,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose classes for simple units",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -689,7 +691,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose classes related to dimensions without units",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -703,28 +705,6 @@
       ]
     },
     {
-      "uniqueId": "org.jetbrains.skiko:skiko-jvm",
-      "funding": [],
-      "developers": [
-        {
-          "organisationUrl": "https://www.jetbrains.com",
-          "name": "Compose Multiplatform Team"
-        }
-      ],
-      "artifactVersion": "0.6.6",
-      "description": "Kotlin Skia bindings",
-      "scm": {
-        "connection": "scm:git:https://www.github.com/JetBrains/skiko.git",
-        "url": "https://www.github.com/JetBrains/skiko",
-        "developerConnection": "scm:git:https://www.github.com/JetBrains/skiko.git"
-      },
-      "name": "Skiko Jvm",
-      "website": "https://www.github.com/JetBrains/skiko",
-      "licenses": [
-        "Apache-2.0"
-      ]
-    },
-    {
       "uniqueId": "org.jetbrains.compose.animation:animation-core-desktop",
       "funding": [],
       "developers": [
@@ -733,7 +713,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Animation engine and animation primitives that are the building blocks of the Compose animation library",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -755,7 +735,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose Material Design core icons. This module contains the most commonly used set of Material icons.",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -777,7 +757,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Compose tooling library API. This library provides the API required to declare @Preview composables in user apps.",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -798,7 +778,7 @@
           "name": "Mike Penz"
         }
       ],
-      "artifactVersion": "10.0.0-b07",
+      "artifactVersion": "10.1.0",
       "description": "AboutLibraries automatically detects all dependencies of a project and collects their information including the license. Optionally visualising it via the provided ui components.",
       "scm": {
         "connection": "scm:git@github.com:mikepenz/AboutLibraries.git",
@@ -872,7 +852,7 @@
       ]
     },
     {
-      "uniqueId": "io.ktor:ktor-client-java",
+      "uniqueId": "io.ktor:ktor-client-content-negotiation-jvm",
       "funding": [],
       "developers": [
         {
@@ -880,12 +860,12 @@
           "name": "JetBrains Team"
         }
       ],
-      "artifactVersion": "1.6.7",
+      "artifactVersion": "2.0.0",
       "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
       "scm": {
         "url": "https://github.com/ktorio/ktor.git"
       },
-      "name": "ktor-client-java",
+      "name": "ktor-client-content-negotiation",
       "website": "https://github.com/ktorio/ktor",
       "licenses": [
         "Apache-2.0"
@@ -900,7 +880,7 @@
           "name": "JetBrains Team"
         }
       ],
-      "artifactVersion": "1.6.7",
+      "artifactVersion": "2.0.0",
       "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
       "scm": {
         "url": "https://github.com/ktorio/ktor.git"
@@ -912,7 +892,7 @@
       ]
     },
     {
-      "uniqueId": "io.ktor:ktor-http-cio-jvm",
+      "uniqueId": "io.ktor:ktor-events-jvm",
       "funding": [],
       "developers": [
         {
@@ -920,12 +900,12 @@
           "name": "JetBrains Team"
         }
       ],
-      "artifactVersion": "1.6.7",
+      "artifactVersion": "2.0.0",
       "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
       "scm": {
         "url": "https://github.com/ktorio/ktor.git"
       },
-      "name": "ktor-http-cio",
+      "name": "ktor-events",
       "website": "https://github.com/ktorio/ktor",
       "licenses": [
         "Apache-2.0"
@@ -940,7 +920,7 @@
           "name": "JetBrains Team"
         }
       ],
-      "artifactVersion": "1.6.7",
+      "artifactVersion": "2.0.0",
       "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
       "scm": {
         "url": "https://github.com/ktorio/ktor.git"
@@ -960,7 +940,7 @@
           "name": "JetBrains Team"
         }
       ],
-      "artifactVersion": "1.6.7",
+      "artifactVersion": "2.0.0",
       "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
       "scm": {
         "url": "https://github.com/ktorio/ktor.git"
@@ -980,7 +960,7 @@
           "name": "JetBrains Team"
         }
       ],
-      "artifactVersion": "1.6.7",
+      "artifactVersion": "2.0.0",
       "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
       "scm": {
         "url": "https://github.com/ktorio/ktor.git"
@@ -992,10 +972,30 @@
       ]
     },
     {
+      "uniqueId": "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8",
+      "funding": [],
+      "developers": [
+        {
+          "organisationUrl": "https://www.jetbrains.com",
+          "name": "JetBrains Team"
+        }
+      ],
+      "artifactVersion": "1.6.1",
+      "description": "Coroutines support libraries for Kotlin",
+      "scm": {
+        "url": "https://github.com/Kotlin/kotlinx.coroutines"
+      },
+      "name": "kotlinx-coroutines-jdk8",
+      "website": "https://github.com/Kotlin/kotlinx.coroutines",
+      "licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
       "uniqueId": "org.slf4j:slf4j-api",
       "funding": [],
       "developers": [],
-      "artifactVersion": "1.7.33",
+      "artifactVersion": "1.7.36",
       "description": "The slf4j API",
       "scm": {
         "connection": "git@github.com:qos-ch/slf4j.git",
@@ -1012,7 +1012,7 @@
       }
     },
     {
-      "uniqueId": "io.ktor:ktor-network-jvm",
+      "uniqueId": "io.ktor:ktor-websocket-serialization-jvm",
       "funding": [],
       "developers": [
         {
@@ -1020,19 +1020,19 @@
           "name": "JetBrains Team"
         }
       ],
-      "artifactVersion": "1.6.7",
+      "artifactVersion": "2.0.0",
       "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
       "scm": {
         "url": "https://github.com/ktorio/ktor.git"
       },
-      "name": "ktor-network",
+      "name": "ktor-websocket-serialization",
       "website": "https://github.com/ktorio/ktor",
       "licenses": [
         "Apache-2.0"
       ]
     },
     {
-      "uniqueId": "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8",
+      "uniqueId": "io.ktor:ktor-serialization-jvm",
       "funding": [],
       "developers": [
         {
@@ -1040,53 +1040,53 @@
           "name": "JetBrains Team"
         }
       ],
-      "artifactVersion": "1.6.0",
+      "artifactVersion": "2.0.0",
+      "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
+      "scm": {
+        "url": "https://github.com/ktorio/ktor.git"
+      },
+      "name": "ktor-serialization",
+      "website": "https://github.com/ktorio/ktor",
+      "licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "uniqueId": "io.ktor:ktor-websockets-jvm",
+      "funding": [],
+      "developers": [
+        {
+          "organisationUrl": "https://www.jetbrains.com",
+          "name": "JetBrains Team"
+        }
+      ],
+      "artifactVersion": "2.0.0",
+      "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
+      "scm": {
+        "url": "https://github.com/ktorio/ktor.git"
+      },
+      "name": "ktor-websockets",
+      "website": "https://github.com/ktorio/ktor",
+      "licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "uniqueId": "org.jetbrains.kotlinx:kotlinx-coroutines-slf4j",
+      "funding": [],
+      "developers": [
+        {
+          "organisationUrl": "https://www.jetbrains.com",
+          "name": "JetBrains Team"
+        }
+      ],
+      "artifactVersion": "1.6.1",
       "description": "Coroutines support libraries for Kotlin",
       "scm": {
         "url": "https://github.com/Kotlin/kotlinx.coroutines"
       },
-      "name": "kotlinx-coroutines-jdk8",
+      "name": "kotlinx-coroutines-slf4j",
       "website": "https://github.com/Kotlin/kotlinx.coroutines",
-      "licenses": [
-        "Apache-2.0"
-      ]
-    },
-    {
-      "uniqueId": "io.ktor:ktor-client-serialization-jvm",
-      "funding": [],
-      "developers": [
-        {
-          "organisationUrl": "https://www.jetbrains.com",
-          "name": "JetBrains Team"
-        }
-      ],
-      "artifactVersion": "1.6.7",
-      "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
-      "scm": {
-        "url": "https://github.com/ktorio/ktor.git"
-      },
-      "name": "ktor-client-serialization",
-      "website": "https://github.com/ktorio/ktor",
-      "licenses": [
-        "Apache-2.0"
-      ]
-    },
-    {
-      "uniqueId": "io.ktor:ktor-client-json-jvm",
-      "funding": [],
-      "developers": [
-        {
-          "organisationUrl": "https://www.jetbrains.com",
-          "name": "JetBrains Team"
-        }
-      ],
-      "artifactVersion": "1.6.7",
-      "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
-      "scm": {
-        "url": "https://github.com/ktorio/ktor.git"
-      },
-      "name": "ktor-client-json",
-      "website": "https://github.com/ktorio/ktor",
       "licenses": [
         "Apache-2.0"
       ]
@@ -1100,7 +1100,7 @@
           "name": "JetBrains Team"
         }
       ],
-      "artifactVersion": "1.6.7",
+      "artifactVersion": "2.0.0",
       "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
       "scm": {
         "url": "https://github.com/ktorio/ktor.git"
@@ -1112,7 +1112,7 @@
       ]
     },
     {
-      "uniqueId": "io.ktor:ktor-client-apache",
+      "uniqueId": "io.ktor:ktor-client-apache-jvm",
       "funding": [],
       "developers": [
         {
@@ -1120,7 +1120,7 @@
           "name": "JetBrains Team"
         }
       ],
-      "artifactVersion": "1.6.5",
+      "artifactVersion": "2.0.0",
       "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
       "scm": {
         "url": "https://github.com/ktorio/ktor.git"
@@ -1135,7 +1135,7 @@
       "uniqueId": "org.apache.httpcomponents:httpasyncclient",
       "funding": [],
       "developers": [],
-      "artifactVersion": "4.1.4",
+      "artifactVersion": "4.1.5",
       "description": "Apache HttpComponents AsyncClient",
       "scm": {
         "connection": "scm:svn:https://svn.apache.org/repos/asf/httpcomponents/httpasyncclient/branches/4.1.x",
@@ -1156,7 +1156,7 @@
       "uniqueId": "org.apache.httpcomponents:httpcore-nio",
       "funding": [],
       "developers": [],
-      "artifactVersion": "4.4.14",
+      "artifactVersion": "4.4.15",
       "description": "Apache HttpComponents Core (non-blocking I/O)",
       "scm": {
         "connection": "scm:git:https://git-wip-us.apache.org/repos/asf/httpcomponents-core.git",
@@ -1177,7 +1177,7 @@
       "uniqueId": "org.apache.httpcomponents:httpcore",
       "funding": [],
       "developers": [],
-      "artifactVersion": "4.4.14",
+      "artifactVersion": "4.4.15",
       "description": "Apache HttpComponents Core (blocking I/O)",
       "scm": {
         "connection": "scm:git:https://git-wip-us.apache.org/repos/asf/httpcomponents-core.git",
@@ -1198,7 +1198,7 @@
       "uniqueId": "org.apache.httpcomponents:httpclient",
       "funding": [],
       "developers": [],
-      "artifactVersion": "4.5.6",
+      "artifactVersion": "4.5.13",
       "description": "Apache HttpComponents Client",
       "scm": {
         "connection": "scm:git:https://git-wip-us.apache.org/repos/asf/httpcomponents-client.git",
@@ -1306,7 +1306,7 @@
           "name": "Thomas Neidhart"
         }
       ],
-      "artifactVersion": "1.10",
+      "artifactVersion": "1.11",
       "description": "The Apache Commons Codec package contains simple encoder and decoders for\n     various formats such as Base64 and Hexadecimal.  In addition to these\n     widely used encoders and decoders, the codec package also maintains a\n     collection of phonetic encoding utilities.",
       "scm": {
         "connection": "scm:svn:http://svn.apache.org/repos/asf/commons/proper/codec/trunk",
@@ -1316,6 +1316,66 @@
       "name": "Apache Commons Codec",
       "website": "http://commons.apache.org/proper/commons-codec/",
       "licenses": []
+    },
+    {
+      "uniqueId": "io.ktor:ktor-serialization-kotlinx-json-jvm",
+      "funding": [],
+      "developers": [
+        {
+          "organisationUrl": "https://www.jetbrains.com",
+          "name": "JetBrains Team"
+        }
+      ],
+      "artifactVersion": "2.0.0",
+      "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
+      "scm": {
+        "url": "https://github.com/ktorio/ktor.git"
+      },
+      "name": "ktor-serialization-kotlinx-json",
+      "website": "https://github.com/ktorio/ktor",
+      "licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "uniqueId": "io.ktor:ktor-serialization-kotlinx-jvm",
+      "funding": [],
+      "developers": [
+        {
+          "organisationUrl": "https://www.jetbrains.com",
+          "name": "JetBrains Team"
+        }
+      ],
+      "artifactVersion": "2.0.0",
+      "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
+      "scm": {
+        "url": "https://github.com/ktorio/ktor.git"
+      },
+      "name": "ktor-serialization-kotlinx",
+      "website": "https://github.com/ktorio/ktor",
+      "licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
+      "uniqueId": "io.ktor:ktor-client-java-jvm",
+      "funding": [],
+      "developers": [
+        {
+          "organisationUrl": "https://www.jetbrains.com",
+          "name": "JetBrains Team"
+        }
+      ],
+      "artifactVersion": "2.0.0",
+      "description": "Ktor is a framework for quickly creating web applications in Kotlin with minimal effort.",
+      "scm": {
+        "url": "https://github.com/ktorio/ktor.git"
+      },
+      "name": "ktor-client-java",
+      "website": "https://github.com/ktorio/ktor",
+      "licenses": [
+        "Apache-2.0"
+      ]
     },
     {
       "uniqueId": "org.slf4j:slf4j-simple",
@@ -1338,6 +1398,27 @@
       }
     },
     {
+      "uniqueId": "com.mikepenz:aboutlibraries-core-jvm",
+      "funding": [],
+      "developers": [
+        {
+          "name": "Mike Penz"
+        }
+      ],
+      "artifactVersion": "10.1.0",
+      "description": "AboutLibraries automatically detects all dependencies of a project and collects their information including the license. Optionally visualising it via the provided ui components.",
+      "scm": {
+        "connection": "scm:git@github.com:mikepenz/AboutLibraries.git",
+        "url": "https://github.com/mikepenz/AboutLibraries",
+        "developerConnection": "scm:git@github.com:mikepenz/AboutLibraries.git"
+      },
+      "name": "AboutLibraries Library",
+      "website": "https://github.com/mikepenz/AboutLibraries",
+      "licenses": [
+        "Apache-2.0"
+      ]
+    },
+    {
       "uniqueId": "org.jetbrains.compose.ui:ui-util-desktop",
       "funding": [],
       "developers": [
@@ -1346,7 +1427,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "1.0.1",
+      "artifactVersion": "1.1.1",
       "description": "Internal Compose utilities used by other modules",
       "scm": {
         "connection": "scm:git:https://github.com/JetBrains/compose-jb.git",
@@ -1360,7 +1441,7 @@
       ]
     },
     {
-      "uniqueId": "org.jetbrains.skiko:skiko-jvm-runtime-macos-arm64",
+      "uniqueId": "org.jetbrains.skiko:skiko-awt-runtime-macos-arm64",
       "funding": [],
       "developers": [
         {
@@ -1368,7 +1449,7 @@
           "name": "Compose Multiplatform Team"
         }
       ],
-      "artifactVersion": "0.6.6",
+      "artifactVersion": "0.7.16",
       "description": "Kotlin Skia bindings",
       "scm": {
         "connection": "scm:git:https://www.github.com/JetBrains/skiko.git",
@@ -1377,27 +1458,6 @@
       },
       "name": "Skiko JVM Runtime for MacOS Arm64",
       "website": "https://www.github.com/JetBrains/skiko",
-      "licenses": [
-        "Apache-2.0"
-      ]
-    },
-    {
-      "uniqueId": "com.mikepenz:aboutlibraries-core-jvm",
-      "funding": [],
-      "developers": [
-        {
-          "name": "Mike Penz"
-        }
-      ],
-      "artifactVersion": "10.0.0-b07",
-      "description": "AboutLibraries automatically detects all dependencies of a project and collects their information including the license. Optionally visualising it via the provided ui components.",
-      "scm": {
-        "connection": "scm:git@github.com:mikepenz/AboutLibraries.git",
-        "url": "https://github.com/mikepenz/AboutLibraries",
-        "developerConnection": "scm:git@github.com:mikepenz/AboutLibraries.git"
-      },
-      "name": "AboutLibraries Library",
-      "website": "https://github.com/mikepenz/AboutLibraries",
       "licenses": [
         "Apache-2.0"
       ]
@@ -1413,7 +1473,7 @@
       "name": "Eclipse Public License 1.0"
     },
     "BSD-3-Clause": {
-      "content": "Copyright (c) <<var;name=copyright;original= <year> <owner>;match=.+>>. All rights reserved. \r\n\r\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\r\n\r\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. \r\n\r\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. \r\n\r\n3. Neither the name of <<var;name=organizationClause3;original=the copyright holder;match=.+>> nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\r\n\r\nTHIS SOFTWARE IS PROVIDED BY <<var;name=copyrightHolderAsIs;original=THE COPYRIGHT HOLDERS AND CONTRIBUTORS;match=.+>> \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <<var;name=copyrightHolderLiability;original=THE COPYRIGHT HOLDER OR CONTRIBUTORS;match=.+>> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. ",
+      "content": "Copyright (c) <<var;name=copyright;original= <year> <owner>;match=.+>>. All rights reserved. \n\nRedistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. \n\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution. \n\n3. Neither the name of <<var;name=organizationClause3;original=the copyright holder;match=.+>> nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.\n\nTHIS SOFTWARE IS PROVIDED BY <<var;name=copyrightHolderAsIs;original=THE COPYRIGHT HOLDERS AND CONTRIBUTORS;match=.+>> \"AS IS\" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL <<var;name=copyrightHolderLiability;original=THE COPYRIGHT HOLDER OR CONTRIBUTORS;match=.+>> BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. ",
       "hash": "BSD-3-Clause",
       "internalHash": "BSD-3-Clause",
       "url": "https://spdx.org/licenses/BSD-3-Clause.html",
